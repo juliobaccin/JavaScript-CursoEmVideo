@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Cidadania</title>
+</head>
+<body>
+    <h1>Sistema de Cidadania</h1>
+    De qual cidadania você é <input type="text" name="txt1" id="txt1">
+    <input type="button" value="Cidadania" onclick="clicar()">
+    <div id="res"></div>
+
+    <script>
+        function clicar(){
+            var t1 = window.document.getElementById('txt1')
+            var res = window.document.getElementById('res')
+            var tx = String(t1.value)
+            res.innerHTML = `<p>Sua cidadania é <strong>${tx}</strong></p>`
+                if(tx =='Brasileiro'){
+                    res.innerHTML += '<p>Parabéns você é de cidadania <strong>Brasileira!</strong></p>'
+                }else{
+                    res.innerHTML += '<p>Vocè é <strong>ESTRANGEIRO!</strong></p>'
+                }
+        }
+    </script>
+</body>
+</html>
