@@ -1,6 +1,7 @@
-
-## JavaScript
-
+<div align='center'>
+ <h1> JavaScript</h1>
+<div>
+ 
  Curso de JavaScript do <a target="_blank" rel="external" href="https://www.cursoemvideo.com/"><strong>Curso em Video</strong></a>
 
 <div>
